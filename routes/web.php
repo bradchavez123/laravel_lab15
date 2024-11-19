@@ -7,9 +7,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return ('Brandon Chavez about page');
+    return view('about');
 });
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/home', function () {
+    return view('home');
 });
