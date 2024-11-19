@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return ('Brandon Chavez about page');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
